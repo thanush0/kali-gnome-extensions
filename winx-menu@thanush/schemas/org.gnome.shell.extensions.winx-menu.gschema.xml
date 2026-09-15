@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.winx-menu" path="/org/gnome/shell/extensions/winx-menu/">
+    <key name="winx-hotkey" type="as">
+      <default><![CDATA[['<Super>x']]]></default>
+      <summary>Quick Link shortcut</summary>
+      <description>Keybinding that toggles the Quick Link menu.</description>
+    </key>
+  </schema>
+</schemalist>

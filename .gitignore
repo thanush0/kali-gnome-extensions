@@ -1,0 +1,8 @@
+cat > .gitignore <<'EOF'
+*.backup
+*.backup*
+*.bak
+gschemas.compiled
+__pycache__/
+*.pyc
+EOF

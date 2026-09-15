@@ -1,0 +1,10 @@
+{
+  "uuid": "kali-spotlight@thanush",
+  "name": "Kali Spotlight",
+  "description": "Windows+Space / macOS Spotlight-style application search for GNOME Shell",
+  "shell-version": [
+    "50"
+  ],
+  "version": 2,
+  "settings-schema": "org.gnome.shell.extensions.kali-spotlight"
+}

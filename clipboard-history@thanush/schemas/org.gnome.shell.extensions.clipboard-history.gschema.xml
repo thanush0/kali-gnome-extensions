@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="clipboard-history-thanush">
+  <schema id="org.gnome.shell.extensions.clipboard-history"
+          path="/org/gnome/shell/extensions/clipboard-history/">
+
+    <key name="clipboard-hotkey" type="as">
+      <default>["&lt;Super&gt;z"]</default>
+      <summary>Toggle clipboard history</summary>
+      <description>
+        Keybinding used to open/close the clipboard history popup.
+      </description>
+    </key>
+
+    <key name="max-history" type="i">
+      <default>50</default>
+      <range min="1" max="500"/>
+      <summary>Maximum history items</summary>
+      <description>
+        Maximum number of clipboard entries kept in history.
+      </description>
+    </key>
+
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable clipboard history</summary>
+      <description>
+        Whether clipboard monitoring / history recording is active.
+      </description>
+    </key>
+
+  </schema>
+</schemalist>

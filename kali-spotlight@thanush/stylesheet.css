@@ -1,0 +1,97 @@
+#kali-spotlight-overlay {
+    background-color: transparent;
+}
+
+.kali-spotlight-panel {
+    padding: 0;
+    border-radius: 16px;
+    background-color: rgba(32, 33, 38, 0.96);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+}
+
+.kali-spotlight-search-box {
+    margin: 10px;
+    padding: 9px 14px;
+    min-height: 50px;
+    border-radius: 11px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.kali-spotlight-search-icon {
+    icon-size: 22px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.kali-spotlight-entry {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    caret-color: white;
+    padding: 0;
+}
+
+.kali-spotlight-entry StLabel {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.kali-spotlight-scroll {
+    max-height: 420px;
+    margin: 0 8px 8px 8px;
+}
+
+.kali-spotlight-section {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.40);
+    padding: 8px 10px 4px 10px;
+    text-transform: uppercase;
+}
+
+.kali-spotlight-empty {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.45);
+    padding: 16px 10px;
+}
+
+.kali-spotlight-result {
+    min-height: 54px;
+    margin: 2px 4px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 90ms;
+}
+
+.kali-spotlight-result.selected {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.kali-spotlight-result:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.kali-spotlight-calc {
+    margin-bottom: 6px;
+}
+
+.kali-spotlight-calc .kali-spotlight-name {
+    color: #9fd8ff;
+}
+
+.kali-spotlight-result-box {
+    spacing: 12px;
+}
+
+.kali-spotlight-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.kali-spotlight-description {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.50);
+}

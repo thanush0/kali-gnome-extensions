@@ -1,0 +1,10 @@
+{
+    "uuid": "clipboard-history@thanush",
+    "name": "Clipboard History",
+    "description": "Windows-style clipboard history popup opened with Super+Z. Keeps a searchable history of copied text, restores items back to the clipboard on click, and never auto-opens on login or enable.",
+    "version": 1,
+    "shell-version": ["50"],
+    "url": "",
+    "settings-schema": "org.gnome.shell.extensions.clipboard-history",
+    "gettext-domain": "clipboard-history-thanush"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.kali-spotlight"
+          path="/org/gnome/shell/extensions/kali-spotlight/">
+    <key name="hotkey" type="as">
+      <default>["&lt;Super&gt;space"]</default>
+      <summary>Spotlight search shortcut</summary>
+    </key>
+  </schema>
+</schemalist>

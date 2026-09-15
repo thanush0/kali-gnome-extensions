@@ -1,0 +1,9 @@
+{
+  "uuid": "winx-menu@thanush",
+  "name": "Windows Quick Link Menu",
+  "description": "A Windows 11 style Quick Link (Win+X) menu for GNOME Shell. Press Super+X to open a quick-access menu for system tools, management utilities, and power options. The shortcut is configurable from the Extensions app.",
+  "version": 2,
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.winx-menu",
+  "gettext-domain": "winx-menu"
+}
